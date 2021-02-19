@@ -1,12 +1,19 @@
 @import 'fonts';
 
 .margins {
+    margin-left:8vh;
+    margin-right:8vh;
     max-width: 1360px;
-    margin-left: 8vh;
-    margin-right: 8vh;
-    margin-top: 61px;
-
 }
 .fonts {
     font-family: $main-font;
+}
+
+.grid-container {
+    display:grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(auto-fill, 60px);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
 }

@@ -9,3 +9,32 @@ $main-font: 'mulish', sans-serif;
     font-size: 18px;
     line-height: 23px;
 }
+.font-bold-22-blue {
+    color: #4a4ff2;
+    font-weight: bold;
+    font-size: 22px;
+    line-height:28px;
+}
+.font-bold-40 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+
+    &-black {
+        @extend .font-bold-40;
+        color: #111111;
+    }
+    &-blue {
+        @extend .font-bold-40;
+        color: #4A4FF2;
+    }
+}
+ .font-italic-18 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+ }   
