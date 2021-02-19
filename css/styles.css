@@ -1,0 +1,45 @@
+/* Same font styles are reused at different levels of the page
+; thus, a name scheme more according to the styling of the fonts more than the placement. */
+.font-bold-18 {
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.margins {
+  max-width: 1360px;
+  margin-left: 8vh;
+  margin-right: 8vh;
+  margin-top: 61px;
+}
+
+.fonts {
+  font-family: "mulish", sans-serif;
+}
+
+/* Same font styles are reused at different levels of the page
+; thus, a name scheme more according to the styling of the fonts more than the placement. */
+.font-bold-18 {
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  text-decoration: none;
+  margin-left: 29px;
+}
+.navbar-links:hover {
+  color: #4A4FF2;
+}
+.navbar-links:visited {
+  color: #111111;
+  opacity: 0.6;
+}
