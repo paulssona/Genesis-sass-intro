@@ -1,3 +1,5 @@
+/* Same font styles are reused at different levels of the page
+; thus, a name scheme more according to the styling of the fonts more than the placement. */
 .font-bold-18 {
   color: #111111;
   font-weight: bold;
@@ -15,19 +17,12 @@
   font-family: "mulish", sans-serif;
 }
 
+/* Same font styles are reused at different levels of the page
+; thus, a name scheme more according to the styling of the fonts more than the placement. */
 .font-bold-18 {
   color: #111111;
   font-weight: bold;
   font-size: 18px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar-links {
-  margin-left: 29px;
 }
 
 .navbar {
