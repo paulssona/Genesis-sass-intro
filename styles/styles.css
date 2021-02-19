@@ -1,5 +1,44 @@
+.font-bold-18 {
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .margins {
-  width: 100vh;
+  max-width: 1360px;
   margin-left: 8vh;
   margin-right: 8vh;
+  margin-top: 61px;
+}
+
+.fonts {
+  font-family: "mulish", sans-serif;
+}
+
+.font-bold-18 {
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  margin-left: 29px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  text-decoration: none;
+  margin-left: 29px;
+}
+.navbar-links:hover {
+  color: #4A4FF2;
 }

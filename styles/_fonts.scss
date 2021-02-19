@@ -1,5 +1,10 @@
 $main-font: 'mulish', sans-serif;
 
-.font-header {
-    
+/* Same font styles are reused at different levels of the page
+; thus, a name scheme more according to the styling of the fonts more than the placement. */ 
+
+.font-bold-18 {
+    color: #111111;
+    font-weight: bold;
+    font-size: 18px;
 }
