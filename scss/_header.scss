@@ -14,6 +14,11 @@
         display:block;
         grid-column: 10 / 13;
         grid-row: 6 / 7;
-        margin-top: 25px
+        margin-top: 25px;
     }
 }
+.quote-bar {
+    margin-top: 10px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}   

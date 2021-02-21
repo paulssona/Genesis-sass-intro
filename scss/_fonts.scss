@@ -38,3 +38,22 @@ $main-font: 'mulish', sans-serif;
     mix-blend-mode: normal;
     opacity: 0.6;
  }   
+ .font-bold-28 {
+     font-size: 28px;
+     line-height: 38px;
+     color: #111111;
+     font-weight: bold;
+ }
+ /*In hindsight, font-size-weight would be a better name scheme to make concurrent code. 
+ Thus, normal, bold, and italic could be used within the same mother node.*/
+
+ .font-normal-18 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+ } 

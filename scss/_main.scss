@@ -1,0 +1,36 @@
+.gallery-container {
+        display: flex;
+        grid-row: 9 / 38;
+        grid-column: 1 / 13;
+    }
+.column {
+    flex: 33%;
+    width: 33%;
+    margin: 0 10px;
+}
+.column img {
+    margin-top: 20px;
+    width: 100%;
+}
+.container-group {
+    grid-row: 40 / 43;
+    grid-column: 1 / 13;
+    display:flex;
+    justify-content: space-between;
+    margin-right:31px;
+    margin-top: 20px;
+}
+.group-content {
+    display:flex;
+    max-width: 635px;
+    align-items: center;
+
+}
+.list-styling {
+    display:flex;
+    list-style: none;
+    padding: none;
+    margin: none;
+    flex-direction: column;
+    line-height: 200%;
+}
