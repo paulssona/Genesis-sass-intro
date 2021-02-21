@@ -9,6 +9,13 @@
         <link type="text/css" rel="stylesheet" href="styles/normalize.css" />
         <link rel="stylesheet" href="styles/styles.css">
     </head>
+    
+    <!-- Did an experiment by setting the whole page as a container according to the grid in figma. 
+        It made a whole lot of the calculations more difficult. Responsiveness was shot to pieces
+        as blocks goes into eachother. However, a lot of the larger both vertical and horisontal 
+        gaps were easier to calculate. The problem was to make the gallery
+        somewhat responsive w/o media queries. A great, but frustrating exercise.-->
+
     <body class="margins fonts grid-container">   
         <nav class="navbar-container">
             <div>
@@ -31,6 +38,10 @@
                     in studios and startups </div>
             </div>    
         </header>
+
+        <!--I failed to get the gallery's bottom sharp. Somewhere I've must missed a spec. 
+            However, grid-gap and margins are double checked and accounted for.-->
+            
         <section class="gallery-container">
             <div class= "column">
                 <img src="images/Rectangle.png" alt="">
@@ -66,7 +77,21 @@
             </ul>
         </div>
         <section>
-
+            <!--Skipped this part due to time constraints.-->
         </section>
+        <footer class="footer-container">
+            <div>
+                <a href="index.html" >
+                    <img src="/images/genesislogo.svg" width="auto" height="auto" alt="Genesis-logo">
+                </a>
+            </div>
+            <div class="navbar-links font-bold-18">
+                <a class="footer-links" href="project.html">Projects</a>
+                <a class="footer-links link-distance" href="contact.html">Contact</a>
+                <a class="footer-links" href="#"><img src="images/dribbble-logo.png" alt="dribble-logo" width="15px" height="15px"></a>
+                <a class="footer-links" href="#"><img src="images/instagram.png" alt="instagram-logo" width="15px" height="15px"></a>
+                <a class="footer-links" href="#"><img src="images/twitter-logo-silhouette.png" alt="twitter-logo" width="15px" height="15px"></a>
+            </div>
+        </footer>
     </body>
 </html>
